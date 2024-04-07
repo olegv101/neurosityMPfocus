@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button } from 'react-native';
+import styles from '../styles/StyleSheet';
+import { TouchableOpacity } from 'react-native';
 
 const LoginScreen = () => {
     const [username, setUsername] = useState('');
@@ -10,8 +12,8 @@ const LoginScreen = () => {
     };
 
     return (
-        <View>
-            <Text>Please enter your credentials:</Text>
+        <View style={styles.container}>
+            <Text>Login</Text>
             <TextInput
                 placeholder="Username"
                 value={username}
@@ -23,7 +25,12 @@ const LoginScreen = () => {
                 value={password}
                 onChangeText={setPassword}
             />
-            <Button title="Login" onPress={handleLogin} />
+            <TouchableOpacity style={styles.blackFilledButton} onPress={handleLogin}>
+                <Text style={{ color: 'white', textAlign: 'center', justifyContent: 'center', marginTop: 10 }}>
+                    Login
+                </Text>
+            </TouchableOpacity>
+            <View style = {styles.fakeBottomNav}></View>
         </View>
     );
 };

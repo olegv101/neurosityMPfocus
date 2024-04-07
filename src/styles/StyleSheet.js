@@ -3,8 +3,11 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
         height: `100%`,
-        marginTop: 50,
+        paddingTop: 50,
         flex: 1,
+        backgroundColor: '#F0ECE4',
+        borderRadiusTopLeft: 20,
+        borderRadiusTopRight: 20,
     },
     curvedContainer: {
     },
@@ -57,6 +60,24 @@ export const styles = StyleSheet.create({
         padding: 10,
         borderTopLeftRadius: 20,
         borderTopRightRadius: 20,
+    },
+    blackFilledButton: {
+        width: 341,
+        height: 64,
+        backgroundColor: '#1A1A1A',
+        borderRadius: 10,
+        alignSelf: 'center',
+        alignContent: 'center',
+    },
+    blackOutlineButton: {
+        width: 341,
+        height: 64,
+        backgroundColor: '#F0ECE4',
+        borderRadius: 10,
+        alignSelf: 'center',
+        alignContent: 'center',
+        borderWidth: 1,
+        borderColor: '#1A1A1A',
     },
 });
 

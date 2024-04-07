@@ -59,7 +59,7 @@ const HomePage = ({ navigation }) => {
                 </View>
             </Modal>
 
-            <View style={{ position: 'absolute', left: 0, right: 0, bottom: 0 }}>
+            <View style={{ position: 'absolute', left: 0, right: 0, bottom: 0, marginBottom: 20 }}>
                 <Button
                     title="Your User Code"
                     onPress={handleUserCodeButtonPress}
@@ -78,7 +78,7 @@ const HomePage = ({ navigation }) => {
                     onPressOut={handleCloseModal} // Close modal when pressing outside the modal content
                 >
                     {/* This inner View stops the touch propagation */}
-                    <View style={styles.modalView} onStartShouldSetResponder={() => true}>
+                    <View style={[styles.modalView, {}]} onStartShouldSetResponder={() => true}>
                         <Text>Show User Code</Text>
                         <Text>to join study sessions</Text>
                         <Text>828221</Text>
@@ -86,6 +86,7 @@ const HomePage = ({ navigation }) => {
                     </View>
                 </TouchableOpacity>
             </Modal>
+            <View style = {[styles.fakeBottomNav, {marginTop: 10}]}></View>
         </View>
     );
 };

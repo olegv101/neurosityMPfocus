@@ -19,14 +19,13 @@ function HomeStackScreen() {
       <HomeStack.Screen
         name="Home"
         component={HomePage}
-        options={{ title: 'Home' }}
       />
       <HomeStack.Screen
         name="CreateEvent"
         component={CreateEventScreen}
         options={{ title: 'Create Event' }}
       />
-      {/* You can add more screens to the home stack as needed */}
+      {/* Other screens can be added here if needed */}
     </HomeStack.Navigator>
   );
 }
