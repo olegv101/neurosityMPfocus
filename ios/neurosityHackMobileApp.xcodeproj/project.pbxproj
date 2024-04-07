@@ -16,10 +16,6 @@
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9A9761D32BC281AC00AE70B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A9761D22BC281AC00AE70B7 /* GoogleService-Info.plist */; };
 		9A9761D42BC281AC00AE70B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A9761D22BC281AC00AE70B7 /* GoogleService-Info.plist */; };
-		9A9761D72BC2AE8900AE70B7 /* InterTight-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9761D52BC2AE8900AE70B7 /* InterTight-Italic-VariableFont_wght.ttf */; };
-		9A9761D82BC2AE8900AE70B7 /* InterTight-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9761D62BC2AE8900AE70B7 /* InterTight-VariableFont_wght.ttf */; };
-		9A9761DB2BC2AF3200AE70B7 /* InterTight-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9761D92BC2AF3200AE70B7 /* InterTight-VariableFont_wght.ttf */; };
-		9A9761DC2BC2AF3200AE70B7 /* InterTight-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A9761DA2BC2AF3200AE70B7 /* InterTight-Italic-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +46,6 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = neurosityHackMobileApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-neurosityHackMobileApp-neurosityHackMobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neurosityHackMobileApp-neurosityHackMobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-neurosityHackMobileApp-neurosityHackMobileAppTests/Pods-neurosityHackMobileApp-neurosityHackMobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A9761D22BC281AC00AE70B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		9A9761D52BC2AE8900AE70B7 /* InterTight-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "InterTight-Italic-VariableFont_wght.ttf"; path = "../../../Downloads/DM_Serif_Display,Inter_Tight/Inter_Tight/InterTight-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		9A9761D62BC2AE8900AE70B7 /* InterTight-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "InterTight-VariableFont_wght.ttf"; path = "../../../Downloads/DM_Serif_Display,Inter_Tight/Inter_Tight/InterTight-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		9A9761D92BC2AF3200AE70B7 /* InterTight-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterTight-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		9A9761DA2BC2AF3200AE70B7 /* InterTight-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterTight-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -128,10 +120,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				9A9761D52BC2AE8900AE70B7 /* InterTight-Italic-VariableFont_wght.ttf */,
-				9A9761DA2BC2AF3200AE70B7 /* InterTight-Italic-VariableFont_wght.ttf */,
-				9A9761D62BC2AE8900AE70B7 /* InterTight-VariableFont_wght.ttf */,
-				9A9761D92BC2AF3200AE70B7 /* InterTight-VariableFont_wght.ttf */,
 				13B07FAE1A68108700A75B9A /* neurosityHackMobileApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* neurosityHackMobileAppTests */,
@@ -258,13 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9761DB2BC2AF3200AE70B7 /* InterTight-VariableFont_wght.ttf in Resources */,
-				9A9761DC2BC2AF3200AE70B7 /* InterTight-Italic-VariableFont_wght.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9A9761D32BC281AC00AE70B7 /* GoogleService-Info.plist in Resources */,
-				9A9761D82BC2AE8900AE70B7 /* InterTight-VariableFont_wght.ttf in Resources */,
-				9A9761D72BC2AE8900AE70B7 /* InterTight-Italic-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,10 +586,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -673,10 +654,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
