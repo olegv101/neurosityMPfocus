@@ -55,7 +55,7 @@ export const styles = StyleSheet.create({
     fakeBottomNav: {
         position: 'absolute',
         bottom: 0,
-        width: '100%',
+        width: 393,
         backgroundColor: '#1A1A1A',
         padding: 10,
         borderTopLeftRadius: 20,
