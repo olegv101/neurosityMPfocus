@@ -81,6 +81,10 @@ export const styles = StyleSheet.create({
         borderColor: '#1A1A1A',
         alignSelf: 'center',
     },
+    text: {
+    fontFamily: 'InterTight-VariableFont_wght', // Make sure the name matches the actual font name, not the filename
+    fontSize: 20,
+    },
 });
 
 export default styles;
