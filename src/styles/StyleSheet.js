@@ -68,6 +68,7 @@ export const styles = StyleSheet.create({
         borderRadius: 10,
         alignSelf: 'center',
         alignContent: 'center',
+        alignSelf: 'center',
     },
     blackOutlineButton: {
         width: 341,
@@ -76,8 +77,9 @@ export const styles = StyleSheet.create({
         borderRadius: 10,
         alignSelf: 'center',
         alignContent: 'center',
-        borderWidth: 1,
+        borderWidth: 2,
         borderColor: '#1A1A1A',
+        alignSelf: 'center',
     },
 });
 

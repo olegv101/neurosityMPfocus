@@ -13,21 +13,25 @@ const OnboardingScreen = () => {
     };
 
     return (
-        <View style = {styles.container}>
+        <View style={styles.container}>
             <Text>Welcome to</Text>
             <Text>FocusMe</Text>
             <Text>Your Telepathic Study Partner</Text>
-            <TouchableOpacity style={styles.blackFilledButton} onPress={handleButtonPress}>
-                <Text style={{ color: 'white', textAlign: 'center', justifyContent: 'center', marginTop: 10 }}>
-                    Login
-                </Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={styles.blackOutlineButton} onPress={handleButtonPress}>
-                <Text style={{ color: 'black', textAlign: 'center', justifyContent: 'center', marginTop: 10 }}>
-                    Sign Up
-                </Text>
-            </TouchableOpacity>
-            <View style = {styles.fakeBottomNav}></View>
+
+            <View style={{ position: 'absolute', bottom: 0, marginBottom: 40, alignItems: 'center', width: '100%' }}>
+                <TouchableOpacity style={[styles.blackFilledButton, {marginBottom: 15}]} onPress={handleButtonPress}>
+                    <Text style={{ color: 'white', textAlign: 'center', justifyContent: 'center', marginTop: 10 }}>
+                        Login
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.blackOutlineButton} onPress={handleButtonPress}>
+                    <Text style={{ color: 'black', textAlign: 'center', justifyContent: 'center', marginTop: 10 }}>
+                        Sign Up
+                    </Text>
+                </TouchableOpacity>
+            </View>
+
+            <View style={styles.fakeBottomNav}></View>
 
         </View>
     );
