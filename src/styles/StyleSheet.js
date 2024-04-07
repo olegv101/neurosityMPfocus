@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     container: {
         height: `100%`,
-        paddingTop: 50,
+        paddingTop: 20,
         flex: 1,
         backgroundColor: '#F0ECE4',
         borderRadiusTopLeft: 20,
@@ -55,7 +55,7 @@ export const styles = StyleSheet.create({
     fakeBottomNav: {
         position: 'absolute',
         bottom: 0,
-        width: '100%',
+        width: 393,
         backgroundColor: '#1A1A1A',
         padding: 10,
         borderTopLeftRadius: 20,
@@ -85,6 +85,11 @@ export const styles = StyleSheet.create({
     fontFamily: 'InterTight-VariableFont_wght', // Make sure the name matches the actual font name, not the filename
     fontSize: 20,
     },
+    text: {
+        color: 'black',
+        marginTop: 10,
+        fontFamily: 'sans-serif',
+    }
 });
 
 export default styles;
