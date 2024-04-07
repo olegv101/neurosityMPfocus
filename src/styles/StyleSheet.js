@@ -82,13 +82,10 @@ export const styles = StyleSheet.create({
         alignSelf: 'center',
     },
     text: {
-    fontFamily: 'InterTight-VariableFont_wght', // Make sure the name matches the actual font name, not the filename
-    fontSize: 20,
-    },
-    text: {
-        color: 'black',
+        color: '#1A1A1A',
         marginTop: 10,
         fontFamily: 'sans-serif',
+        fontSize: 20,
     }
 });
 

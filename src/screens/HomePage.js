@@ -30,9 +30,12 @@ const HomePage = ({ navigation }) => {
     };
 
     return (
-        <View style={styles.container}>
-            <Text>Your Points To Date: 0</Text>
+        <View style={[styles.container, { padding: 30 }]}>
+            <Text style={[styles.text, { fontSize: 20, fontWeight: '300' }]}>Your Points To Date:</Text>
+            <Text style={[styles.text, { fontSize: 128, fontWeight: 600, marginTop: -20 }]}>3021</Text>
+            <View style={{ width: '100%', height: 1, backgroundColor: '#1A1A1A', marginBottom: 30, marginTop: 10 }}></View>
             <Text>Past Events You've Joined:</Text>
+
             <View>
                 <Button
                     title="Create Event"
@@ -73,20 +76,25 @@ const HomePage = ({ navigation }) => {
                 onRequestClose={handleCloseModal}
             >
                 <TouchableOpacity
-                    style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgba(0,0,0,0.5)' }}
+                    style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}
                     activeOpacity={1} // Keep the child elements responsive by setting the opacity to 1
                     onPressOut={handleCloseModal} // Close modal when pressing outside the modal content
                 >
                     {/* This inner View stops the touch propagation */}
-                    <View style={[styles.modalView, {}]} onStartShouldSetResponder={() => true}>
-                        <Text>Show User Code</Text>
-                        <Text>to join study sessions</Text>
-                        <Text>828221</Text>
-                        <Button title="Close" onPress={handleCloseModal} />
+                    <View style={[styles.modalView, { backgroundColor: '#1A1A1A', height: 300 }]} onStartShouldSetResponder={() => true}>
+                        <Text style = {[styles.text, {color: 'white', marginTop: -5}]}>Your User Code</Text>
+                        <Text style = {[styles.text, {color: 'white', fontSize: 14, marginTop: 0}]}>to join study sessions</Text>
+                        <Text style={[styles.text, { fontSize: 80, color: 'white' }]}>828221</Text>
+                        <TouchableOpacity style={[styles.blackFilledButton, { marginBottom: 25, backgroundColor: '#F0ECE4' }]} onPress={handleCloseModal}>
+                            <Text style={[styles.text, { textAlign: 'center', fontSize: 20, fontWeight: 600, paddingTop: 9 }]}>
+                                Copy / Share
+                            </Text>
+                        </TouchableOpacity>
+
                     </View>
                 </TouchableOpacity>
             </Modal>
-            <View style = {[styles.fakeBottomNav, {marginTop: 10}]}></View>
+            <View style={[styles.fakeBottomNav, { marginTop: 10 }]}></View>
         </View>
     );
 };
