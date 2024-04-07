@@ -55,9 +55,9 @@ const AppNavigator = () => {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={({ route }) => ({
-          tabBarActiveTintColor: 'black',
+          tabBarActiveTintColor: 'white',
           tabBarInactiveTintColor: 'gray',
-          tabBarStyle: [{ display: 'flex' }, null], // Make sure this style aligns with what you need for your tabs
+          tabBarStyle: [{ display: 'flex', backgroundColor: '#1A1A1A', borderTopWidth: 0 }, null], // Make sure this style aligns with what you need for your tabs
           // Add your tabBarIcon configuration here
         })}
       >

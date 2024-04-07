@@ -48,9 +48,15 @@ export const styles = StyleSheet.create({
             width: 0,
             height: 2,
         },
-        shadowOpacity: 0.25,
-        shadowRadius: 3.84,
-        elevation: 5,
+    },
+    fakeBottomNav: {
+        position: 'absolute',
+        bottom: 0,
+        width: '100%',
+        backgroundColor: '#1A1A1A',
+        padding: 10,
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
     },
 });
 

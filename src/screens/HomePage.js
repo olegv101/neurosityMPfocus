@@ -79,7 +79,7 @@ const HomePage = ({ navigation }) => {
                 >
                     {/* This inner View stops the touch propagation */}
                     <View style={styles.modalView} onStartShouldSetResponder={() => true}>
-                        <Text>Your User Code</Text>
+                        <Text>Show User Code</Text>
                         <Text>to join study sessions</Text>
                         <Text>828221</Text>
                         <Button title="Close" onPress={handleCloseModal} />

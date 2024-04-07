@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import styles from '../styles/StyleSheet';
+
 
 const OnboardingScreen = () => {
     const navigation = useNavigation();
@@ -10,9 +12,12 @@ const OnboardingScreen = () => {
     };
 
     return (
-        <View>
+        <View style = {styles.container}>
             <Text>Welcome to the Onboarding Screen!</Text>
-            <Button title="Go to Next Screen" onPress={handleButtonPress} />
+            <Button title="Login" onPress={handleButtonPress} />
+            <Button title="Sign Up" onPress={handleButtonPress} />
+            <View style = {styles.fakeBottomNav}></View>
+
         </View>
     );
 };
